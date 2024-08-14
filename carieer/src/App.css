@@ -1,0 +1,49 @@
+.App {
+  display: flex;
+  height: 100vh;
+  /* align-items: center; */
+  justify-content: center;
+  background: rgb(4, 4, 4);
+}
+
+.hero {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+ width: 100vw;
+ height: 88vh;
+ background-color: rgb(2, 2, 2);
+ border-bottom: .5px solid rgba(255, 0, 0, 0.195);
+}
+
+.hero h1 {
+display: flex;
+color: rgba(240, 248, 255, 0.154);
+justify-content: center;
+}
+
+
+.Book {
+  display: flex;
+  height: 550px;
+  width: 900px;
+  background-color: rgba(255, 255, 255, 0.106);
+}
+
+.first {
+ display: flex;
+ height: 550px;
+ width: 450px;
+ background-color: rgba(78, 2, 2, 0.303);
+}
+
+.first:hover {
+ transform: rotate(100deg);
+}
+
+.second {
+  display: flex;
+  height: 550px;
+  width: 450px;
+  background-color: rgba(2, 27, 78, 0.303);
+ }
